@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            margin: 20px auto;
+            width: 60%;
+        }
+
+        input[type="text"] {
+            padding: 10px 20px;
+            margin: 10px 5px;
+            width: 80%;
+        }
+
+        select {
+            padding: 10px 20px;
+            margin: 10px 5px;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registeration Form</h1>
+    <form action="">
+
+        <div style="display: inline-flex;">
+            <div style="width: 100%;">
+                <label for="firstName">First Name</label> <br>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+
+            <div style="width: 100%;">
+                <label for="lastName">Last Name</label> <br>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+
+        </div>
+
+        <div style="display: inline-flex;">
+
+            <div style="width: 100%;">
+                <label for="dob">DOB</label> <br>
+                <input type="text" id="dob" name="dob">
+            </div>
+
+
+            <div style="width: 100%;">
+
+                <label for="age">Age</label> <br>
+                <input type="text" id="age" name="age" readonly>
+            </div>
+        </div>
+
+        <div style="display: inline-flex;">
+
+            <select name="devType" id="devType">
+                <option value="mobile">Mobile Developer</option>
+                <option value="front">Frontend Developer</option>
+                <option value="back">Backend Developer</option>
+                <option value="full">Full Stack Developer</option>
+            </select>
+
+            <select name="level" id="level">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermidiate">Intermidiate</option>
+                <option value="Professional">Professional</option>
+                <option value="expert">Expert</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">JavaScript</label>
+            <input type="checkbox" name="php" id="php">
+            <label for="php">PHP</label>
+            <input type="checkbox" name="laravel" id="laravel">
+            <label for="laravel">Laravel</label>
+            <input type="checkbox" name="svelte" id="svelte">
+            <label for="svelte">Svelte</label>
+            <input type="checkbox" name="vb" id="vb">
+            <label for="vb">Visual Basic</label>
+            <input type="checkbox" name="typescript" id="typescript">
+            <label for="typescript">Typescript</label>
+            <input type="checkbox" name="reason" id="reason">
+            <label for="reason">Reason</label>
+            <input type="checkbox" name="rust" id="rust">
+            <label for="rust">Rust</label>
+        </div>
+    </form>
+</body>
+
+</body>
+
+</html>
